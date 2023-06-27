@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Animated on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- font awesom icon -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+    <!-- js -->
+    <link rel="stylesheet" href="script.js" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+
+    <!-- title -->
+    <title>Faisal | Raffy | Ilyas</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div class="container">
+        <ul class="nav">
+          <li>
+            <a href="#home"><i data-feather="home"></i> Home</a>
+          </li>
+          <li>
+            <a href="#about"><i data-feather="alert-circle"></i> About us</a>
+          </li>
+          <li>
+            <a href="#profile"><i data-feather="users"></i> Team</a>
+          </li>
+          <li>
+            <a href="#contact"><i data-feather="mail"></i> Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- hero -->
+    <div class="hero" id="home">
+      <div data-aos="fade-in" data-aos-duration="2000" class="container">
+        <h1>Hi, you can know us from here.</h1>
+        <div class="col">
+          <button class="hero-button" data-aos="fade-in"><a href="#about">learn more about us</a></button>
+        </div>
+      </div>
+    </div>
+    <!-- end of hero -->
+
+    <!-- about us -->
+    <section id="about">
+      <div data-aos="fade-down" data-aos-duration="3000" class="container">
+        <h2>About us</h2>
+        <p>
+          We are 2nd semester students of Nusantara Islamic University, Faculty of Engineering and Informatics Engineering Study Program, we have same hobby playing football and we each have more capabilities. We like too do
+          something new and make something different from other.
+        </p>
+      </div>
+    </section>
+    <!-- end of about us -->
+
+    <!-- profile -->
+    <section id="profile">
+      <div class="container">
+        <div class="row">
+          <div data-aos="fade-down" data-aos-duration="900" class="col">
+            <h1>Team</h1>
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="2000" class="row-1">
+            <div class="col-1">
+              <img src="img/me.jpg" alt="" />
+              <h3>41037006221004</h3>
+              <h2>Faishal Muhammad Naufa</h2>
+              <div class="media">
+                <a href="https://www.instagram.com/faiisallmn/">
+                  <i data-feather="instagram"></i>
+                </a>
+                <a href="https://github.com/Sirpaii">
+                  <i data-feather="github"></i>
+                </a>
+                <a href="mailto:faisalmn14102003@gmail.com">
+                  <i data-feather="mail"></i>
+                </a>
+              </div>
+              <div class="col-11">
+                <button class="media-button">
+                  <a href="https://paii.vercel.app/"> > display more </a>
+                </button>
+              </div>
+            </div>
+            <div class="col-2">
+              <img src="img/2.JPG" alt="" />
+              <h3>41037006221011</h3>
+              <h2>mohammad Raffy Pradipta</h2>
+              <div class="media">
+                <a href="https://www.instagram.com/rafipraaaaa/">
+                  <i data-feather="instagram"></i>
+                </a>
+                <a href="#">
+                  <i data-feather="github"></i>
+                </a>
+                <a href="mailto:rafipra111@gmail.com"><i data-feather="mail"></i></a>
+              </div>
+              <div class="col-12">
+                <button class="media-button"><a href="./raffy/index.html"> > display more </a></button>
+              </div>
+            </div>
+            <div class="col-3">
+              <img src="img/3.JPG" alt="" />
+              <h3>41037006221034</h3>
+              <h2>Raden Muhammad Ilyas Satibi Maolani</h2>
+              <div class="media">
+                <a href="https://www.instagram.com/rilyas9/">
+                  <i data-feather="instagram"></i>
+                </a>
+                <a href="#">
+                  <i data-feather="github"></i>
+                </a>
+                <a href="#">
+                  <i data-feather="mail"></i>
+                </a>
+              </div>
+              <div class="col-13">
+                <button class="media-button" href="#"><a href="#"> > Display more </a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of profile -->
+
+    <!-- contact -->
+    <section id="contact">
+      <h2>Contact us</h2>
+      <form>
+        <label for="name">Name :</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name..." />
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email..." />
+
+        <label for="message">message :</label>
+        <textarea id="message" name="message" placeholder="Enter your message..."></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- end of contact -->
+
+    <!-- footer -->
+    <footer>made with <i data-feather="heart"> </i> by Team</footer>
+    <!-- end of footer -->
+
+    <!-- script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      feather.replace();
+      AOS.init();
+    </script>
+  </body>
+</html>
