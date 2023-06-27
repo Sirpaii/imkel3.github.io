@@ -45,8 +45,8 @@ a {
 }
 
 .welcome .container button:hover {
-  background-color: whitesmoke;
-  border: 2px solid whitesmoke;
+  background-color: black;
+  border: 2px solid black;
 }
 
 /* navbar */
@@ -104,7 +104,7 @@ a {
 }
 
 .hero .container a:hover {
-  background-color: #00bbdc;
+  background-color: darkcyan;
 }
 
 /* about us */
