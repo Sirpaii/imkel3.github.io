@@ -16,7 +16,10 @@ body {
   background-position: center;
   background-size: cover;
   object-position: center;
-  height: 745px;
+  align-items: center;
+  height: 649px;
+  display: flex;
+  justify-content: center;
 }
 
 .welcome .container span,
@@ -27,7 +30,6 @@ a {
 .welcome .container {
   text-align: center;
   font-size: 20px;
-  padding-top: 15rem;
 }
 
 .welcome .container h1,
@@ -297,7 +299,6 @@ footer {
 
 @media screen and (max-width: 1080px) {
   /* hero */
-
   .hero {
     height: 60vh;
     margin-bottom: 5rem;
@@ -337,6 +338,11 @@ footer {
 }
 
 @media screen and (max-width: 720px) {
+  /* welcome */
+  .welcome {
+    height: 720px;
+  }
+
   /* nav */
   .nav a {
     font-size: 0px;
